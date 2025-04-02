@@ -1,9 +1,9 @@
 import traceback
 
-from clean_data import clean_data
+from transform_dados.clean_data import clean_data
 from etl.replace_abb import replace_abbreviations
-from extract_tables import extract_tables_from_pdf
-from save_csv_zip import save_as_csv_and_zip
+from transform_dados.extract_tables import extract_tables_from_pdf
+from transform_dados.save_csv_zip import save_as_csv_and_zip
 from web_scraping.compact import zip_files
 from web_scraping.scraper import download_pdfs
 

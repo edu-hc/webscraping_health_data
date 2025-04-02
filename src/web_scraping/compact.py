@@ -1,8 +1,6 @@
 import os
 import zipfile
 
-from src.web_scraping.scraper import download_pdfs
-
 
 def zip_files(filepaths, zip_name="anexos.zip"):
     """Compacta arquivos em ZIP"""
