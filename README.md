@@ -124,6 +124,3 @@ Coloque os arquivos baixados em:
 4. Push para a branch (`git push origin feature/nova-feature`)
 5. Abra um Pull Request
 
-## Licença
-
-[MIT](https://choosealicense.com/licenses/mit/)
