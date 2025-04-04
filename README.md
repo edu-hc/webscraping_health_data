@@ -17,7 +17,6 @@ Este projeto implementa uma solução completa para os testes de nivelamento da 
     │   ├── backend (API Python)
     │   └── frontend (Interface Vue.js)
     ├── banco_dados (Scripts SQL e dados)
-    ├── instance (Banco de dados SQLite)
     ├── main.py (Execução principal)
     ├── transform_dados (Processamento de dados)
     └── web_scraping (Coleta de dados)
