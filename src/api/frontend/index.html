@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca de Operadoras</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  
+  <!-- Vue.js e Axios via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.global.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+</head>
+<body>
+  <div id="app" class="container my-4">
+    <h1 class="mb-4">Sistema de Busca de Operadoras</h1>
+    
+    <!-- Componente de Busca -->
+    <search-bar 
+      :is-loading="isLoading"
+      @search="searchOperadoras"
+      v-model:search-query="searchQuery"
+      v-model:limit="limit"
+    ></search-bar>
+
+    <!-- Componente de Tabela de Resultados -->
+    <operadoras-table
+      :results="results"
+      :is-loading="isLoading"
+      :has-searched="hasSearched"
+      :search-query="searchQuery"
+    ></operadoras-table>
+  </div>
+
+  <!-- Importar serviços -->
+  <script src="services/api.js"></script>
+  
+  <!-- Importar componentes -->
+  <script src="components/SearchBar.js"></script>
+  <script src="components/OperadorasTable.js"></script>
+  
+  <!-- Aplicação principal -->
+  <script src="app.js"></script>
+</body>
+</html>

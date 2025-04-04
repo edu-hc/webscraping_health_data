@@ -1,0 +1,25 @@
+/* Estilos gerais da aplicação */
+.loading {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  
+  .highlight {
+    background-color: #ffff99;
+    font-weight: bold;
+  }
+  
+  .no-resultados {
+    color: #dc3545;
+    font-style: italic;
+  }
+  
+  .result-count {
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .table-container {
+    max-height: 500px;
+    overflow-y: auto;
+  }
