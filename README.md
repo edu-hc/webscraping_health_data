@@ -1,7 +1,7 @@
-# README - Projeto de Testes de Nivelamento ANS
+# README - Projeto de Testes de Nivelamento 
 
 ## Visão Geral
-Este projeto implementa uma solução completa para os testes de nivelamento da ANS, abrangendo:
+Este projeto implementa uma solução completa para os testes de nivelamento, abrangendo:
 - Web scraping de documentos públicos
 - Transformação de dados de PDF para CSV
 - Análise de banco de dados
