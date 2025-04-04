@@ -34,7 +34,7 @@ Este projeto implementa uma solução completa para os testes de nivelamento da 
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_REPOSITORIO]
+git clone https://github.com/edu-hc/webscraping_health_data.git
 ```
 
 2. Instale as dependências Python:
